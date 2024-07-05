@@ -1,0 +1,7 @@
+services:
+  backsubs:
+    build: .
+    ports:
+      - "8501:8501"
+    devices:
+      - "/dev/video0:/dev/video0"

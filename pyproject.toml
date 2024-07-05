@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fall"
+version = "0.1.0"
+description = ""
+authors = ["fepfitra <fitriansyahekaputra2001@mail.ugm.ac.id>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.10.0.84"
+streamlit = "^1.36.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
